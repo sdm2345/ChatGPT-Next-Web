@@ -13,5 +13,5 @@ async function handle() {
   }
   return NextResponse.json({ model_list });
 }
-
+export const dynamic = "force-dynamic";
 export const GET = handle;
